@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="anchorPane" maxHeight="800.0" maxWidth="600.0" minHeight="800.0" minWidth="600.0" prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.CombatController">
+   <children>
+      <Label fx:id="stats" alignment="CENTER" contentDisplay="CENTER" maxWidth="600.0" minWidth="600.0" prefWidth="600.0" text="Label" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

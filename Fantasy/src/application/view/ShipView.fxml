@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.Cursor?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="800.0" maxWidth="600.0" minHeight="800.0" minWidth="600.0" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ShipController">
+   <children>
+      <ImageView fx:id="background" pickOnBounds="true" preserveRatio="true" />
+      <VBox alignment="CENTER" maxHeight="800.0" maxWidth="600.0" minHeight="800.0" minWidth="600.0" prefHeight="800.0" prefWidth="600.0" spacing="10.0">
+         <children>
+            <Text fx:id="ship" strokeType="OUTSIDE" strokeWidth="0.0" text="Ship">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Text>
+            <Text fx:id="credits" strokeType="OUTSIDE" strokeWidth="0.0" text="Credits:">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Button fx:id="firepower" focusTraversable="false" mnemonicParsing="false" text="firepower" />
+            <Button fx:id="storage" focusTraversable="false" mnemonicParsing="false" text="storage" />
+            <Button fx:id="engine" focusTraversable="false" mnemonicParsing="false" text="engine" />
+            <Button fx:id="shield" focusTraversable="false" mnemonicParsing="false" text="shield" />
+            <Button fx:id="back" focusTraversable="false" mnemonicParsing="false" text="Back" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
